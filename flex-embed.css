@@ -42,7 +42,8 @@
 .FlexEmbed-item,
 .FlexEmbed iframe,
 .FlexEmbed embed,
-.FlexEmbed object {
+.FlexEmbed object,
+.FlexEmbed video{
     bottom: 0;
     height: 100%;
     left: 0;
