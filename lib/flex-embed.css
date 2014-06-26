@@ -71,6 +71,14 @@
 }
 
 /**
+ * Custom modifier: allow aspect ratio via inline style
+ */
+
+.FlexEmbed--custom:before {
+  padding-bottom: 0;
+}
+
+/**
  * Works automatically for iframes, embeds, and objects to account for
  * situations where you cannot modify the enbedded element's attributes (e.g.,
  * 3rd party widget code).

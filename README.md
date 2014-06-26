@@ -53,7 +53,7 @@ Alternatively, aspect ratios can be calculated programmatically and the
 corresponding `padding-bottom` value applied using an inline style.
 
 ```html
-<div class="FlexEmbed" style="padding-bottom:{{percentage}}%">
+<div class="FlexEmbed FlexEmbed--custom" style="padding-bottom:{{percentage}}%">
   [iframe|object|embed]
 </div>
 ```
