@@ -1,17 +1,27 @@
 {
   "name": "suitcss-components-flex-embed",
-  "description": "CSS for responsive, intrinsic ratio embeds",
   "version": "2.0.4",
-  "style": "index.css",
+  "description": "CSS for responsive, intrinsic ratio embeds",
+  "keywords": [
+    "browser",
+    "css-components",
+    "flex-embed",
+    "suitcss",
+    "style"
+  ],
+  "homepage": "https://github.com/suitcss/components-flex-embed#readme",
+  "bugs": "https://github.com/suitcss/components-flex-embed/labels/bug",
+  "license": "MIT",
+  "author": "Nicolas Gallagher",
   "files": [
     "index.css",
     "index.js",
     "lib"
   ],
-  "devDependencies": {
-    "stylelint-config-suitcss": "^4.0.0",
-    "suitcss-components-test": "*",
-    "suitcss-preprocessor": "^1.0.1"
+  "style": "index.css",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/suitcss/components-flex-embed.git"
   },
   "scripts": {
     "build": "npm run setup && npm run preprocess",
@@ -23,16 +33,9 @@
     "watch": "npm run preprocess-test -- -w -v",
     "test": "npm run lint"
   },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/suitcss/components-flex-embed.git"
-  },
-  "keywords": [
-    "browser",
-    "css-components",
-    "flex-embed",
-    "suitcss",
-    "style"
-  ]
+  "devDependencies": {
+    "stylelint-config-suitcss": "^4.0.0",
+    "suitcss-components-test": "*",
+    "suitcss-preprocessor": "^1.0.1"
+  }
 }
